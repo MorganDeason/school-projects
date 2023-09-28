@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" >
+  <title>Wildfire Project</title>
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Most Destructive Fires in Texas History</h1>
+  </header>
+  <div id="picDisplay">
+    <!-- Getting the names to line across the top to add a click event to them -->
+  </div>
+
+
+  <div id="fireDetail">
+    <!-- Displaying each fire and its details -->
+    <img id="detail-image" src="" />
+    <div id="hope">
+      <h1>Fire Name: <span id="name"></span></h1>
+      <h2>Date: <span id="date"></span></h2>
+      <h2>Acreage: <span id="acres"></span></h2>
+      <h2>HomesLost: <span id="homes"></span></h2>
+
+      <h2>Comments Section: </h2>
+      <div id="commentSection">
+        <!-- Insert comments here -->
+      </div>
+      <form id="commentForm">
+        <label for="comment">Add Comment: </label>
+        <textarea type="text" name="comment" placeholder="Tell us something about this fire..." id="comment"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
